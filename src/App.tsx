@@ -78,7 +78,7 @@ const App = () => (
     <Provider store={store}>
       <ApolloProvider client={client}>
         <Wrapper>
-          <Header />
+          {/* <Header /> */}
           <Dashboard />
           <ToastContainer />
         </Wrapper>
